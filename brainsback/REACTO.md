@@ -5,27 +5,29 @@
 **Hard rule**: AI agents must not edit this file and must not draft paste-ready content for it.
 
 ## R — The Problem
-_Repita_com_suas_palavras_qual_o_problema_sendo_resolvido_
+Precisamos substituir os simbolos X por emoji de gato e O por emoji de cachorro
 
 ## E — Examples
 _Exemplos_de_entrada_saída_ou_situacao_e_resposta_
 
-- **Input**: 
+- **Input**: Quando o jogador X clica em uma celula vazia
 
-  **Output**:
+  **Output**: Um emoji de gato aparece
 
-- **Input**:
+- **Input**: Quando o jogador O clica em uma celula vazia
 
-  **Output**:
+  **Output**: o emoji de cachorro aparece
 
 ## A — Approach
-_Um_paragrafo_descrevendo_a_estrategia_para_a_solucao_do_problema_
+Identificar onde se localizam os simbos X e O e substitui-los por emoji de gato e cachorro respectivamente
 
 ## C — Code
-_Liste_as_funcoes__onde_elas_foram_implementadas_e_de_onde_sao_chamadas_para_resolver_o_problema_
+em game.js as funcoes createInitialState, getNextPlayer, applyMove e checkWinner tiveram os simbolos X
+e O substituidos pelos emojis
+
 
 ## T — Tests
-_Como_voce_testou_que_o_problema_foi_resolvido__informe_testes_manuais_e_automaticos_
-
+Rodei o jogo fazendo testes manuais e tudo funcionou a contento: gato ganha, cachorro ganha, empate.
+Todos os testes automatizados tiveram os simbolos trocados corretamente.
 ## O — Optimization
-_Analise_bigO__pode_nao_se_aplicar_em_alguns_casos_
+Nao se aplica neste caso

@@ -5,18 +5,18 @@
 **Hard rule**: AI agents must not edit this file and must not draft paste-ready content for it.
 
 ## The Problem
-_One or two sentences on what we're solving._
+Precisamos substituir os simbolos X pelo emoji de catface e O pelo emoji de dogface
 
 ## Steps
-- [ ] 
-- [ ] 
-- [ ] Update the test cases
+- [X] Identificar onde os simbolos X e O sao definidos
+- [X] Substituir os simbolos X e O por emoji de gato e emoji de cachorro respectivamente
+- [X] Update the test cases
 
 
 ## Success Looks Like
-- [ ] 
-- [ ] 
-- [ ] All tests pass
+- [X] Quando o jogador X clicar em uma celula vazia, deve aparecer um gato, e quando o jogador O o fizer deve aparecer um cachorro
+- [X] O jogo deve continuar funcionando
+- [X] All tests pass
 
 ## Notes
 - [ ] 
